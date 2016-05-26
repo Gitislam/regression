@@ -2,7 +2,6 @@
 mydata<-read.csv('Dosage.csv')
 
 #Running ANOVA
-?aov
 aov.mydata<-aov(Alertness~Dosage, mydata)
 summary(aov.mydata)
 
